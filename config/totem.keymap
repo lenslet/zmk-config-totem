@@ -135,7 +135,7 @@ label= "FNC"                               ;
                 &kp F1      &kp F2      &kp F3      &kp F4      &kp F5          &kp F6       &kp F7       &kp F8     &kp F9       &kp F10       
                 &kp LC(A)   &none       &none       &none       &none           &kp LEFT     &kp DOWN     &kp UP     &kp RIGHT    &kp DEL 
 &mt LCTRL TAB   &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &none           &kp HOME     &kp END      &kp PG_DN  &kp PG_UP   &kp INS    &mt RSHFT DEL
-                                        &mt LALT ESC &kp LGUI   &mt LSHFT SPACE &lt SYM SPACE &kp RET &kp BSPC   
+                                        &mt LALT ESC &kp LGUI   &mt LSHFT SPACE &lt SYM SPACE &kp RET &kp INT_HENKAN   
                         >;
                 };
                 
