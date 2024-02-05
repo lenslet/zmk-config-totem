@@ -154,7 +154,7 @@ label= "EXT"                               ;
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃   SHIFT   ┃           ┃           ┃           ┃           ┃           ┃   ┃   HOME    ┃   PGDN    ┃   PGUP    ┃   LEFT    ┃   DOWN    ┃   RIGHT   ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃    BT0    ┃    BT1    ┃    BT2    ┃   ┃    BT3    ┃   BTCLR   ┃   BSPC    ┃
+//                                     ┃    BT0    ┃    BT1    ┃    BT2    ┃   ┃    TOG    ┃   BTCLR   ┃   BSPC    ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
@@ -162,7 +162,7 @@ label= "EXT"                               ;
                 &kp T       &kp A       &kp R       &kp N0      &kp A           &kp B        &kp N1       &kp R      &kp U        &kp S       
                 &kp LC(A)   &kp T       &kp A       &kp A       &kp A           &kp LEFT     &kp DOWN     &kp UP     &kp RIGHT    &kp UP 
 &mt LSHFT TAB   &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)     &none         &kp HOME     &kp PG_DN    &kp PG_UP  &kp LEFT     &kp DOWN   &kp RIGHT
-                                     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2    &bt BT_SEL 3 &bt BT_CLR    &kp BSPC   
+                                     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2    &out OUT_TOG &bt BT_CLR    &kp BSPC   
                         >;
                 };
                 
